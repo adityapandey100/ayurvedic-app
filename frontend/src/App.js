@@ -13,7 +13,7 @@ import SignUpDoctorScreen from './screens/Doctors/SignUpDoctorScreen';
 import SignUpRetailerScreen from './screens/Retailers/SignUpRetailerScreen';
 import PrakritiDetermination from './screens/PrakritiDetermination';
 import TreatmentsScreen from './screens/Treatments';
-
+import Dashboard from './dashboard';
 function App() {
   return (
     <Router>
@@ -31,6 +31,7 @@ function App() {
         <Route path="/signup-doctor" element={<SignUpDoctorScreen />} />
         <Route path="/signup-retailer" element={<SignUpRetailerScreen />} />
         <Route path="/prakritidetermination" element={<PrakritiDetermination />} />
+        <Route path="/dashboard" element={<Dashboard/>}/>
       </Routes>
     </Router>
   );
